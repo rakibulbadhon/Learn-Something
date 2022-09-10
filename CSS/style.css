@@ -1,0 +1,198 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {}
+
+.section-title {
+    text-align: center;
+}
+
+/* header starts */
+header {
+    background-image: url("/images/pic2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 1% 7%;
+    background-color: rgba(0, 0, 0, 0.16);
+}
+
+.navbar-brand img {
+    width: 70px;
+    height: auto;
+}
+
+.nav-link {
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    margin: 10px;
+    padding: 1.5px;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+    background-color: rgb(231, 176, 105);
+    border-radius: 5px;
+}
+
+.button {
+    background-color: rgba(232, 173, 95, 0.989);
+    padding: 1% 8%;
+    transition: 0.4s;
+}
+
+.button:hover {
+    transform: scale(1.04);
+}
+
+.banner-container {
+    height: 100vh;
+}
+
+.banner-contents h1 {
+    background-color: rgb(234, 171, 89);
+    padding: 20px 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 50px;
+    font-family: 'Yeseva One', cursive;
+}
+
+/* header ends */
+
+/* main starts */
+
+/* features section */
+#features-container {
+    background-color: rgba(214, 173, 119, 0.217);
+    padding: 7% 12%;
+}
+
+.features {
+    border: 1.5px solid palevioletred;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 5px;
+    box-shadow: 1px 2px 6px black;
+    transition: 0.5s;
+}
+
+.features:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    background-color: palevioletred;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* About me section */
+#about-me {
+    background-color: rgba(214, 173, 119, 0.217);
+    padding: 5% 12%;
+}
+
+.basic-info {
+    margin-top: 50px;
+}
+
+.basic-info p {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+.basic-info a {
+    color: rgba(0, 0, 0, 0.84);
+    text-decoration: none;
+}
+
+.basic-info span {
+    font-weight: 500;
+}
+
+#degre {
+    font-size: 1.2rem;
+}
+
+.skill {
+    font-weight: 500;
+}
+
+.star {
+    margin-left: 27px;
+    color: rgb(216, 145, 52);
+}
+
+.star i {
+    width: 19px;
+}
+
+/* tutorial section */
+#tutorial {
+    background-color: rgba(214, 173, 119, 0.217);
+    padding: 5% 12%;
+}
+
+.card {
+    box-shadow: 2px 4px 8px rgb(28, 21, 21);
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.06);
+}
+
+/* Contact section */
+#contact {
+    background-color: rgba(214, 173, 119, 0.217);
+    padding: 5% 12%;
+}
+
+.label-style {
+    font-weight: 500;
+}
+
+/* Feedback section */
+#feedback {
+    background-color: rgba(32, 122, 158, 0.425);
+    padding: 5%;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.feedback-img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 12px;
+}
+
+/* main ends */
+
+/* Footer strats */
+footer {
+    background-color: rgba(232, 173, 95, 0.989);
+    padding: 1% 12%;
+}
+
+footer a {
+    color: white;
+    padding: 0 10px;
+}
+
+footer a:hover {
+    color: rgba(32, 122, 158, 0.721);
+}
+
+/* Footer ends */
